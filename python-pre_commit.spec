@@ -1,22 +1,20 @@
-# Created by pyp2rpm-3.3.5
 %global pypi_name pre_commit
 
 Name:           python-%{pypi_name}
-Version:        2.9.3
+Version:        2.19.0
 Release:        1
 Summary:        A framework for managing and maintaining multi-language pre-commit hooks
 Group:          Development/Python
 License:        MIT
 URL:            https://github.com/pre-commit/pre-commit
-Source0:        %{pypi_name}-%{version}.tar.gz
+Source0:        https://files.pythonhosted.org/packages/source/p/pre_commit/pre_commit-%{version}.tar.gz
 BuildArch:      noarch
 
 BuildRequires:  python3-devel
 BuildRequires:  python3dist(setuptools)
 
 %description
-[![Build Status]( [![Azure DevOps coverage]( [![pre-commit.ci status]( pre-
-commitA framework for managing and maintaining multi-language pre-commit hooks.
+A framework for managing and maintaining multi-language pre-commit hooks.
 
 %prep
 %autosetup -n %{pypi_name}-%{version}
