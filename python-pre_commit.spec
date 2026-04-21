@@ -1,7 +1,7 @@
 %define module pre_commit
 
 Name:		python-pre_commit
-Version:	4.5.1
+Version:	4.6.0
 Release:	1
 Summary:	A framework for managing and maintaining multi-language pre-commit hooks
 Group:		Development/Python
