@@ -1,7 +1,7 @@
 %define module pre_commit
 
 Name:		python-pre_commit
-Version:	4.6.0
+Version:	4.7.0
 Release:	1
 Summary:	A framework for managing and maintaining multi-language pre-commit hooks
 Group:		Development/Python
@@ -25,4 +25,4 @@ rm -rf %{module}.egg-info
 %license LICENSE
 %{_bindir}/pre-commit
 %{python_sitelib}/%{module}
-%{python_sitelib}/%{module}-%{version}*.egg-info
+%{python_sitelib}/%{module}-%{version}*.*-info
